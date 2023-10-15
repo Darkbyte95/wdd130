@@ -1,0 +1,65 @@
+/* Apply styles to the body element */
+body {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: #094074;
+}
+
+/* Add a container for all content with a max-width of 1600px */
+#content {
+    max-width: 1600px;
+    margin: 0 auto; /* Center the content */
+}
+
+/* Center text for specific selectors */
+nav a, h1, h4, .button-box, section {
+    text-align: center;
+}
+
+/* Add a background container with a height */
+#background {
+    height: 725px;
+}
+
+/* Set background colors */
+body {
+    background-color: #C4F7EF;
+}
+
+header {
+    background-color: #3C6997;
+}
+
+nav a:hover {
+    background-color: #FF7F11;
+}
+
+.book, .join, .book:hover, .join:hover, #background, .msg, footer {
+    background-color: #3C6997;
+    color: #FF7F11; /* Change font color for better contrast */
+}
+
+/* Set text (foreground) colors */
+nav a, h1, h4, .book, .join, .msg p, footer, footer a {
+    color: #C4F7EF; /* Change text color */
+}
+
+h1, h4 {
+    color: #094074; /* Change text color */
+}
+
+/* Add width to logo and icons */
+.logo, .icon {
+    width: 80px;
+}
+
+/* Remove underline from links and add underline on hover */
+nav a, .book, .join, footer a {
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline; /* Add underline on hover for footer links */
+}
+

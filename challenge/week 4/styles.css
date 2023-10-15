@@ -1,0 +1,59 @@
+/* Apply styles to the body element */
+body {
+    background-color: rgb(229, 128, 184);
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 0vh;
+    margin: 0;
+    border: 2px solid transparent; /* Add an invisible border */
+    padding: 300px; /* Padding to create spacing inside the border */
+    box-sizing: border-box; /* Include padding in element's total width */
+}
+
+/* Change the font color for ul and footer */
+ul  {
+    color: black;
+}
+
+footer {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Apply hover effect to the h1 element */
+h1:hover {
+    color: black;
+}
+
+/* Make the image scalable and smaller */
+img {
+    max-width: 20%; /* Adjust the maximum width as needed */
+    height: auto;
+}
+
+/* Change the font size of h2 */
+h2 {
+    background-color: rgb(229, 128, 184);
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    color: white;
+}
+
+ul {
+    font-size: 16px; /* Adjust the font size as needed */
+
+}
