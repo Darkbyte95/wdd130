@@ -2,51 +2,43 @@
 body {
     background-color: #ffffff;
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-family: "Rock Salt", Helvetica, Arial, sans-serif; /* Updated font-family with backup fonts */
     color: #094074;
+    font-size: 22px; /* Increase default font size */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-/* Add a container for all content with a max-width of 1600px */
-#content {
+/* Heading font */
+h1, h4 {
+    font-family: "Rock Salt", cursive;
+}
+
+body, header, footer {
     max-width: 1600px;
-    margin: 0 auto; /* Center the content */
+    margin: 0 auto;
 }
 
-/* Center text for specific selectors */
-nav a, h1, h4, .button-box, section {
-    text-align: center;
-}
-
-/* Add a background container with a height */
-#background {
-    height: 725px;
-}
-
-/* Set background colors */
-body {
-    background-color: #C4F7EF;
-}
-
+/* Header and navigation styles */
 header {
     background-color: #3C6997;
+    padding: 25px 50px;
+}
+
+nav a   {
+    padding: 35px;
+    text-decoration: none;
+    color: #C4F7EF;
+
 }
 
 nav a:hover {
     background-color: #FF7F11;
-}
-
-.book, .join, .book:hover, .join:hover, #background, .msg, footer {
-    background-color: #3C6997;
-    color: #FF7F11; /* Change font color for better contrast */
-}
-
-/* Set text (foreground) colors */
-nav a, h1, h4, .book, .join, .msg p, footer, footer a {
-    color: #C4F7EF; /* Change text color */
-}
-
-h1, h4 {
-    color: #094074; /* Change text color */
 }
 
 /* Add width to logo and icons */
@@ -54,12 +46,99 @@ h1, h4 {
     width: 80px;
 }
 
+/* Hero img */
+#hero-img {
+    width: 100%;
+    height: auto;
+}
+
 /* Remove underline from links and add underline on hover */
 nav a, .book, .join, footer a {
     text-decoration: none;
 }
 
+/* Background container */
+#background {
+    height: 725px;
+    background-color: #C4F7EF;
+}
+
+/* Message section */
+.msg, .msg p {
+    background-color: #3C6997;
+    color: #ffffff;
+    padding: 25px;
+    padding-bottom: 80px;
+}
+
+/* Titles and buttons */
+.home-title {
+    margin-top: 10px;
+}
+
+.book, .join {
+    padding: 15px 30px;
+    color: #094074;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 50px;
+    border: 10px solid #C4F7EF; 
+    box-sizing: border-box; 
+}
+
+/* Adjusted margin for better alignment */
+.rivers-card, .camping-card, .rapids-card {
+    margin: 50px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #3C6997;
+    padding: 25px 50px;
+    color: #C4F7EF;
+    margin-top: 200px;
+}
+
+/* Social media icons */
+footer .social img {
+    padding-top: 15px;
+}
+
+#logo-link {
+    padding: 5px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+
+.book, .join, .book:hover, .join:hover {
+    background-color: #FF7F11;
+    color: #ffffff; /* Change font color for better contrast */
+}
+
+/* Set text (foreground) colors */
+nav a, .book, .join, footer, footer a {
+    color: #C4F7EF; /* Change text color */
+}
+
 footer p a:hover {
     text-decoration: underline; /* Add underline on hover for footer links */
 }
+
+/* Adding padding for specific selectors */
+nav a {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
 
