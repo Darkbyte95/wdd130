@@ -1,38 +1,37 @@
-/* CSS for the .callout class */
+/* CSS para la clase .callout */
 .callout {
-    max-width: 600px;
-    margin: 20px auto;
-    border: 2px solid #333;
-    padding: 20px;
-    background-color: #1E3A5A;
-    color: white;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* CSS for the image */
-  .callout img {
-    float: right;
-    margin: 0 0 10px 10px;
-    border: 1px solid #333;
-    padding: 5px;
-    background-color: #fff;
-    width: 150px;
-    height: auto;
-  }
-  
-  /* CSS for the blockquote */
-  blockquote {
-    margin: 20px 0;
-    font-size: 1.1em;
-  }
-  
-  /* CSS for the cite */
-  cite {
-    display: block;
-    border-top: 1px dashed #ccc;
-    padding-top: 10px;
-    text-align: right;
-    font-size: 0.9em;
-    color: #D3D3D3;
-  }
-  
+  max-width: 600px;
+  margin: 20px auto;
+  border: 2px solid #333;
+  padding: 20px;
+  background-color: #1E3A5A;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* CSS para la imagen */
+.callout img {
+  float: right;
+  margin: 0 0 10px 10px;
+  border: 1px solid #333;
+  padding: 5px;
+  background-color: #fff;
+  width: 150px;
+  height: auto;
+}
+
+/* CSS para el bloque de citas */
+blockquote {
+  margin: 20px 0;
+  font-size: 1.1em;
+}
+
+/* CSS para el elemento cite */
+cite {
+  display: block;
+  border-top: 1px dashed #ccc;
+  padding-top: 10px;
+  text-align: right;
+  font-size: 0.9em;
+  color: #D3D3D3;
+}
