@@ -96,7 +96,6 @@ footer {
 }
 
 /* Class Selectors */
-/* Class Selectors */
 .box {
   margin: 1rem;
   border: 1px solid rgba(0,0,0,.1);
@@ -105,7 +104,6 @@ footer {
   color: #000;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   nav a {
     padding: 15px;
@@ -113,5 +111,15 @@ footer {
 
   aside {
     width: 100%;
+  }
+
+  aside h2 {
+    position: static;
+    margin-top: 10px;
+  }
+
+  main {
+    margin: 10px;
+    padding: 10px;
   }
 }
