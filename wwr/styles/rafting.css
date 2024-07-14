@@ -14,9 +14,9 @@ body {
     margin: auto;
 }
 
-/*HEADER SECCTION*/
+/* HEADER SECTION */
 header {
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     padding: 20px;
     display: grid;
     place-items: center;
@@ -54,13 +54,12 @@ header {
     background-color: white;
 }
 
-/*MAIN SECCTION*/
-
+/* MAIN SECTION */
 main {
     padding: 10px;
 }
 
-/*hero area*/
+/* Hero Area */
 .hero {
     position: relative;
     width: 100%;
@@ -100,7 +99,7 @@ main {
 }
 
 .hero article img {
-    width: 100px; 
+    width: 100px;
     height: auto;
     margin-left: 20px;
     padding: 20px;
@@ -108,15 +107,14 @@ main {
 }
 
 .hero article h2 {
-    margin-top: 100;
+    margin-top: 100px; /* Agregar la unidad de medida px */
 }
 
 .hero article p {
     margin: 0;
 }
 
-/*HISTORY SECTION*/
-
+/* HISTORY SECTION */
 #history {
     text-align: center;
     padding: 40px 20px;
@@ -141,16 +139,26 @@ main {
 }
 
 .history-content img {
-    width: 250px; 
+    width: 250px;
     height: auto;
     margin: 20px;
 }
 
-/*ADVENTURE SECTION*/
+/* ADVENTURE SECTION */
+#adventure-awaits {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#adventure-awaits h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
 
 .adventure-gallery {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .adventure-gallery figure {
@@ -160,8 +168,16 @@ main {
 .adventure-gallery img {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
 }
 
+.adventure-gallery figcaption {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+/* FOOTER SECTION */
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -170,12 +186,16 @@ footer {
     margin-top: 20px;
 }
 
-.social-icons {
+footer .social-icons {
+    margin-top: 10px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
-.social-icons img {
-    width: 30px;
+footer .social-icons a {
     margin: 0 10px;
+}
+
+footer .social-icons img {
+    width: 30px;
 }
