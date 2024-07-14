@@ -1,10 +1,8 @@
-/* rafting.css */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #c04113;
-    --secondary-color: #502c0a;
+    --primary-color: #ddd;
+    --secondary-color: #043f49;
     --font-family: 'Roboto', sans-serif;
 }
 
@@ -16,25 +14,59 @@ body {
     margin: auto;
 }
 
+/*HEADER SECCTION*/
 header {
+    background-color:var(--primary-color);
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.header-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 10px;
 }
 
-nav a {
+.header-content img {
+    margin-right: 20px;
+}
+
+.header-content nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-content nav ul li {
+    margin-left: 20px;
+}
+
+.header-content nav ul li a {
     text-decoration: none;
-    margin: 0 10px;
     color: var(--secondary-color);
+    padding: 5px 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: white;
 }
 
+/*MAIN SECCTION*/
+
+main {
+    padding: 10px;
+}
+
+/*hero area*/
 .hero {
     position: relative;
+    width: 100%;
     text-align: center;
     color: white;
 }
-
 
 .hero img {
     width: 100%;
@@ -44,47 +76,106 @@ nav a {
 
 .hero h1 {
     position: absolute;
-    top: 10%;
+    top: 6.5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2em;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
     border-radius: 10px;
 }
 
 .hero article {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgba(32, 112, 136, 0.5);
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: rgba(32, 112, 136, 0.7);
     padding: 20px;
     border-radius: 10px;
+    max-width: 80%;
+    text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .hero article img {
-    float: right;
-    margin-left: 10px;
-    border-radius: 50%;
+    width: 100px; 
+    height: auto;
+    margin-left: 20px;
+    padding: 20px;
+    align-items: center;
 }
 
-section {
-    padding: 20px;
+.hero article h2 {
+    margin-top: 100;
+}
+
+.hero article p {
+    margin: 0;
+}
+
+/*HISTORY SECTION*/
+
+#history {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#history h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.history-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.history-content p {
+    flex: 1;
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+.history-content img {
+    width: 250px; 
+    height: auto;
+    margin: 20px;
+}
+
+/*ADVENTURE SECTION*/
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.adventure-gallery figure {
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 150px;
+    height: 150px;
 }
 
 footer {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
     text-align: center;
     padding: 20px;
     margin-top: 20px;
 }
 
-footer nav a img {
-    width: 30px;
-    margin: 0 10px;
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
 }
 
-footer nav a {
-    text-decoration: none;
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
 }

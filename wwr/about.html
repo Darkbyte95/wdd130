@@ -1,59 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Us - Rapids White Water Rafting</title>
-        <meta name="description" content="Learn about Rapids White Water Rafting, our history, and the thrilling adventures that await you. Join us for an unforgettable rafting experience!">
-        <meta name="author" content="Leopoldo Saavedra">
-        <link rel="stylesheet" href="styles/rafting.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Rapids White Water Rafting</title>
+    <meta name="description" content="Learn about Rapids White Water Rafting, our history, and the thrilling adventures that await you. Join us for an unforgettable rafting experience!">
+    <meta name="author" content="Leopoldo Saavedra">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Rapids White Water Rafting Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
-    </header>
+        <div class="header-content">
+            <img src="images/logo.png" alt="Rapids White Water Rafting Logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>  
+    
     <main>
         <div class="hero">
             <img src="images/hero.jpg" alt="Hero Image">
             <h1>Rapids White Water Rafting</h1>
             <article>
                 <h2>Happy Client</h2>
-                <img src="images/happy_client.jpg" alt="Happy Client">
+                <img src="images/happy_client.png" alt="Happy Client">
                 <p>Our experience at Rapids White Water Rafting was absolutely incredible. The guides were friendly and professional, and the views were spectacular. We will never forget the thrill of navigating those rapids or the laughter shared with friends. We will definitely be back next summer!</p>
             </article>
-        </div>
-        <section>
+        </div>       
+
+        <section id="history">
             <h2>History</h2>
-            <p>Rapids White Water Rafting began as a small family business in 1995, driven by our passion for the river and the desire to share that adventure with others. What started with a single boat and a couple of paddles has grown into one of the most recognized rafting companies in the country. Over the years, we have taken thousands of people on thrilling adventures, always committed to safety, fun, and environmental conservation.</p>
-        </section>
-        <section>
+            <div class="history-content">
+                <p>Rapids White Water Rafting began as a small family business in 1995, driven by our passion for the river and the desire to share that adventure with others. What started with a single boat and a couple of paddles has grown into one of the most recognized rafting companies in the country. Over the years, we have taken thousands of people on thrilling adventures, always committed to safety, fun, and environmental conservation.</p>
+                <img src="images/history.jpg" alt="History Image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna.</p>
+            </div>
+        </section>      
+
+        <section id="adventure-awaits">
             <h2>Adventure Awaits You!</h2>
-            <img src="images/adventure1.jpg" alt="Peaceful Rapids">
-            <img src="images/adventure2.jpg" alt="Colorado River">
-            <img src="images/adventure3.jpg" alt="Bear River">
-            <img src="images/adventure4.jpg" alt="Smokey River">
-            <img src="images/adventure5.jpg" alt="Boise River">
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/adventure1.jpg" alt="Peaceful Rapids">
+                    <figcaption>Peaceful Rapids</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure2.jpg" alt="Colorado River">
+                    <figcaption>Colorado River</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure3.jpg" alt="Bear River">
+                    <figcaption>Bear River</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure4.jpg" alt="Smokey River">
+                    <figcaption>Smokey River</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure5.jpg" alt="Boise River">
+                    <figcaption>Boise River</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2023 Rapids White Water Rafting | Leopoldo Saavedra</p>
-        <nav class="sociallinks">
+        <div class="social-icons">
             <a href="https://facebook.com">
                 <img src="images/facebook.svg" alt="Facebook">
             </a>
             <a href="https://youtube.com">
-                <img src="images/youtube.svg" alt="youtube">
+                <img src="images/youtube.svg" alt="YouTube">
             </a>
             <a href="https://instagram.com">
                 <img src="images/instagram.svg" alt="Instagram">
             </a>
-        </nav>
+        </div>
     </footer>
 </body>
 </html>
