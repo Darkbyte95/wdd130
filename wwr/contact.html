@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Rapids White Water Rafting</title>
+    <meta name="description" content="Contact Rapids White Water Rafting for inquiries, reservations, or suggestions.">
+    <meta name="author" content="Leopoldo Saavedra">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.png" alt="Rapids White Water Rafting Logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <h2>Send Us a Message</h2>
+        <section id="company-info">
+            <h3>White Water Rafting</h3>
+            <p>Phone: 999-999-9999</p>
+            <p>Email: <a href="mailto:info@whitewaterrafting.com">info@whitewaterrafting.com</a></p>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.27991452764!2d-74.25986553863154!3d40.69767006322953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b4d72791eb%3A0xc80b8f06e177fe62!2sNew%20York%2C%20USA!5e0!3m2!1sen!2s!4v1620053540059!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        
+        <section id="employee-profiles">
+            <h3>Meet Our Team</h3>
+            <div class="profile">
+                <img src="images/employee1.jpeg" alt="Employee 1">
+                <p>John Doe - Lead Guide</p>
+            </div>
+            <div class="profile">
+                <img src="images/employee2.jpeg" alt="Employee 2">
+                <p>Jane Smith - Customer Service</p>
+            </div>
+            <div class="profile">
+                <img src="images/employee3.jpeg" alt="Employee 3">
+                <p>Mike Brown - Safety Specialist</p>
+            </div>
+        </section>
+        
+        <section id="contact-form">
+            <h3>Contact Form</h3>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <p>Purpose of the message:</p>
+                <input type="radio" id="general" name="purpose" value="general" required>
+                <label for="general">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="purpose" value="reservation" required>
+                <label for="reservation">Reservation Question</label><br>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion" required>
+                <label for="suggestion">Website Suggestion</label><br>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 White Water Rafting | Leopoldo Saavedra</p>
+        <div class="social-icons">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://youtube.com">
+                <img src="images/youtube.svg" alt="YouTube">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </div>
+        <p><a href="contact_wireframe.png">Contact Us Page Wireframe</a></p>
+    </footer>
+</body>
+</html>
