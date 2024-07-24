@@ -199,3 +199,205 @@ footer .social-icons a {
 footer .social-icons img {
     width: 30px;
 }
+
+/* Add these to your existing CSS file */
+
+/* Call to Action Section */
+#call-to-action {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--primary-color);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Trip Descriptions Section */
+#trip-descriptions {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#trip-descriptions h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.trip {
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trip h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+/* Trips Table Section */
+#trips-table {
+    padding: 40px 20px;
+}
+
+#trips-table h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Hero Section */
+#hero {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Newsletter Signup */
+#newsletter {
+    padding: 20px;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+#newsletter h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsletter label {
+    margin: 5px 0;
+}
+
+#newsletter input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#newsletter button {
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Call to Action Section */
+#cta {
+    padding: 20px;
+    text-align: center;
+}
+
+#cta h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Grid Layout Section */
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.grid-item h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
